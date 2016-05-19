@@ -152,6 +152,7 @@ section.usrInput .send-btn-class{
 	color: white;
 	border: none;
 	border-bottom: 2px solid black;
+	visibility: hidden;
 }
 
 /*testing acommodation*/
