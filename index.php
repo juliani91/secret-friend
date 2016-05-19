@@ -57,7 +57,7 @@
 	  	<div class="container">
 	  		<div class="eight columns offset-by-two">
 	  			<div class="arrow">
-	  			<a href="#" id="toBegin2"><img class="bounce" src="images/arrowdown-icon.svg"></a>
+	  			<a href="#" id="toBegin2"><img class="arrowImg " src="images/arrowdown-icon.svg"></a>
 	  			</div>
 	  		</div>
 	  	</div>
@@ -73,10 +73,55 @@
 	  			<p>Select the amount of participants and click generate.</p>
 	  		</div>
 	  	</div>
-  	</section>
-  </main>
-  <footer>
+	  	<div class="container">
+	  		<div class="eight columns offset-by-two">
 
+			<!-- select menu accessed from jquery -->
+			    <div id="small_form" class="menu">
+			        <select id="allOptions">
+			            <option value="3">3</option>
+			            <option value="4">4</option>
+			            <option value="5">5</option>
+			            <option value="6">6</option>
+			            <option value="7">7</option>
+			            <option value="8">8</option>
+			            <option value="9">9</option>
+			            <option value="10">10</option>
+			        </select>
+			        <input type="button" value="Generate" id="btn1" class="generate-btn">
+			    </div>
+	  		</div>
+	  	</div>
+  	</section>
+  	<!-- Section where user has to input the information -->
+
+  	<section class="usrInput" id="inputBegin">
+  		<div class="container">
+  			<div class="eight columns offset-by-two">
+  				<h2>E-mails and Names</h2>
+  				<p>Enter the information in the appropriate field.</p>
+  			<!-- Append inputs to the form from jquery -->
+			    <form name="form1" >
+			        <div id="firstForm" >
+			            
+			        </div>
+			    </form>
+  			</div>
+  		</div>
+  	</section>
+
+  	<!-- End of user input -->
+
+  </main> <!-- End of main section of the document -->
+
+
+  <!-- Footer -->
+  <footer>
+  	<div class="container">
+  		<div class="eight columns offset-by-two">
+  			<span>Secret Friend Generator &copy;</span>
+  		</div>
+  	</div>
   </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
