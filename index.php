@@ -47,7 +47,7 @@
 	  		</div>
 	  		   <div class="row">
 			      <div class="six columns alpha header-btn left-btn">
-			          <a href="#">Get Started</a>
+			          <a href="#" id="toBegin">Get Started</a>
 			      </div>
 			        <div class="six columns omega header-btn right-btn">
 			          <a href="#">Github</a>
@@ -57,14 +57,23 @@
 	  	<div class="container">
 	  		<div class="eight columns offset-by-two">
 	  			<div class="arrow">
-	  			<img class="bounce" src="images/arrowdown-icon.svg">
+	  			<a href="#" id="toBegin2"><img class="bounce" src="images/arrowdown-icon.svg"></a>
 	  			</div>
 	  		</div>
 	  	</div>
   </header>
 
-  <main role="main">
+  <!-- Main program starts -->
 
+  <main role="main">
+  	<section class="mainSection" id="getStarted">
+	  	<div class="container">
+	  		<div class="eight columns offset-by-two headerMain">
+	  			<h2>Let's Begin</h2>
+	  			<p>Select the amount of participants and click generate.</p>
+	  		</div>
+	  	</div>
+  	</section>
   </main>
   <footer>
 
