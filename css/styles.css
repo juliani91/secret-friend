@@ -93,6 +93,7 @@ section.mainSection .menu{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 3em;
 }
 
 section.mainSection .menu .generate-btn{
@@ -101,6 +102,21 @@ section.mainSection .menu .generate-btn{
 	border: none;
 	border-bottom: 2px solid black;
 
+}
+
+section.mainSection h5{
+	color: #ffffff;
+	font-size: 1em;
+	text-align: center;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	margin-top: 3em;
+}
+
+section.mainSection ul li{
+	color: white;
+	font-size: 0.9em;
+	font-weight: 300;
+	text-align: center;
 }
 
 /*USER INPUT SECTION*/
@@ -122,6 +138,26 @@ section.usrInput h2{
 section.usrInput p{
 	color: #ffffff;
 	font-size: 1em;
+	text-align: center;
+}
+
+.centering{
+	text-align: center;
+}
+section.usrInput .send-btn-class{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+/*testing acommodation*/
+.divClass{
+	display: inline-block;
+	margin-right: 0.3em;
+}
+
+.appendHere{
 	text-align: center;
 }
 

@@ -82,14 +82,20 @@
 			            <option value="3">3</option>
 			            <option value="4">4</option>
 			            <option value="5">5</option>
-			            <option value="6">6</option>
+			            <!-- <option value="6">6</option>
 			            <option value="7">7</option>
 			            <option value="8">8</option>
 			            <option value="9">9</option>
-			            <option value="10">10</option>
+			            <option value="10">10</option> -->
 			        </select>
 			        <input type="button" value="Generate" id="btn1" class="generate-btn">
 			    </div>
+			    <h5>Recommendations:</h5>
+			    <ul>
+			    	<li>Don't capitalize E-mails</li>
+			    	<li>Verify that your input is correct</li>
+			    	<li>You can start over by clicking the start over button</li>
+			    </ul>
 	  		</div>
 	  	</div>
   	</section>
@@ -99,11 +105,18 @@
   		<div class="container">
   			<div class="eight columns offset-by-two">
   				<h2>E-mails and Names</h2>
-  				<p>Enter the information in the appropriate field.</p>
+  				<p>Enter the appropriate information in the fields.</p>
   			<!-- Append inputs to the form from jquery -->
 			    <form name="form1" >
 			        <div id="firstForm" >
-			            
+			        	<div class="container">
+			        		<div class="twelve columns appendHere"></div>
+			            </div>
+			            <div class="container">
+			            	<div class="eight columns offset-by-two centering">
+			            		<input type="button" value="Send" id="send-btn" class="send-btn-class">
+			            	</div>
+			            </div>
 			        </div>
 			    </form>
   			</div>
