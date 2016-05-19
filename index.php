@@ -32,7 +32,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header class="">
+  <header class="animated fadeInDown">
 	  <div class="container">
 	  		<div class="eight columns offset-by-two">
 	  			<div class="logo">
@@ -41,7 +41,7 @@
 	  		</div>
 	  	</div>
 	  	<div class="container">
-	  		<div class="eight columns offset-by-two headertext">
+	  		<div class="eight columns offset-by-two headertext animated fadeInDown">
 	  			<h1>Secret Friend Generator</h1>
 	  			<p>Just Use &nbsp; <del>Paper</del> &nbsp; E-mails</p>
 	  		</div>

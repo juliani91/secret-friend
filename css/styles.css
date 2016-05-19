@@ -12,6 +12,9 @@ header .logo{
 
 header .headertext{
 	margin-top: 5em;
+	animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
 }
 
 header h1{
