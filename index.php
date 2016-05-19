@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -52,6 +53,13 @@
 			          <a href="#">Github</a>
 			      	</div>
 			    </div>
+	  	</div>
+	  	<div class="container">
+	  		<div class="eight columns offset-by-two">
+	  			<div class="arrow">
+	  			<img class="bounce" src="images/arrowdown-icon.svg">
+	  			</div>
+	  		</div>
 	  	</div>
   </header>
 
