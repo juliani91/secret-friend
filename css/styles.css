@@ -220,6 +220,11 @@ footer span{
 	.left-btn, .right-btn{
 		width: 50%;
 	}
+	header .arrow{
+	text-align: center;
+	margin-top: 2em;
+
+}
 	/*Header end*/
 
 	/*LETS BEGIN SECTION START*/
@@ -517,7 +522,7 @@ footer span{
 
 @media screen and (min-width:1081px) and (max-width: 1441px) {
 
-	
+
 header{
   background: url('../images/imgheader-dimmed.jpg') top center no-repeat;
   background-size: cover;
