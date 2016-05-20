@@ -1,6 +1,6 @@
 
 header{
-  background: url('../images/imgheader-dimmed.jpg') top center no-repeat;
+  background: url('../images/header-res.jpg') top center no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -521,13 +521,6 @@ footer span{
 } /*end of media query*/
 
 @media screen and (min-width:1081px) and (max-width: 1441px) {
-
-
-header{
-  background: url('../images/imgheader-dimmed.jpg') top center no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
 header .logo{
 	text-align: center;
