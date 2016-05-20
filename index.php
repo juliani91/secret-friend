@@ -47,7 +47,7 @@
 	  		</div>
 	  		   <div class="row">
 			      <div class="six columns alpha header-btn left-btn">
-			          <a href="#" id="toBegin">Get Started</a>
+			          <a href="#" id="toBegin">Start :)</a>
 			      </div>
 			        <div class="six columns omega header-btn right-btn">
 			          <a href="#">Github</a>
@@ -82,11 +82,11 @@
 			            <option value="3">3</option>
 			            <option value="4">4</option>
 			            <option value="5">5</option>
-			            <!-- <option value="6">6</option>
+			            <option value="6">6</option>
 			            <option value="7">7</option>
 			            <option value="8">8</option>
 			            <option value="9">9</option>
-			            <option value="10">10</option> -->
+			            <option value="10">10</option>
 			        </select>
 			        <input type="button" value="Generate" id="btn1" class="generate-btn">
 			    </div>

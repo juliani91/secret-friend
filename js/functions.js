@@ -34,7 +34,7 @@ var nameArray = [];
         var first_value = $("#allOptions").val();
         $(".send-btn-class").css("visibility", "visible");
         for(var i=0; i<first_value; i++){
-            $(".appendHere").append('<div class="' + divClass +'"><input type="text" placeholder="Enter your Email ' + (1+i) + '" id="' + (ids +(1+i))  + '"><br/> <input type="text" placeholder="Enter your name '+ (1+i) +'" id="'+ (ids2 +(1+i))  + '"><br/><br/></div>');
+            $(".appendHere").append('<div class="' + divClass +'"><input type="text" placeholder="E-mail ' + (1+i) + '" id="' + (ids +(1+i))  + '"><br/> <input type="text" placeholder="Name '+ (1+i) +'" id="'+ (ids2 +(1+i))  + '"><br/></div>');
             
 
            emailArray.push("#" +ids + (i+1)); // create ids
