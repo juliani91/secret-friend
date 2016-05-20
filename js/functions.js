@@ -43,8 +43,12 @@ var nameArray = [];
 
         }
 
-
-// END OF MAIN PROGRAM
+        // Make generate button a START OVER BUTTON
+        $(".generate-btn").val("Start Over");
+        if ($('.generate-btn').val() == "Start Over") {
+    $(".generate-btn").click(function(){ window.location.reload();});
+}
+        // END OF MAIN PROGRAM
 ///////////////////////////////////////////////////
 
 
