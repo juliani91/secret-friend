@@ -80,8 +80,6 @@ var num = 5;
 setInterval(function(){
 
 	location.href="http://dummy-host2.localhost/";
-	document.getElementsByTagName('BODY').innerHTML= num;
-	num = num - 1;
 }, 5000);
 
 </script>
