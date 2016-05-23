@@ -36,7 +36,7 @@
 	  <div class="container">
 	  		<div class="eight columns offset-by-two">
 	  			<div class="logo">
-	  				<a href="#"> <img src="http://placehold.it/88x88"> </a>
+	  				<a href="http://dummy-host2.localhost/"> <img src="images/logo.svg" width="88px"> </a>
 	  			</div>
 	  		</div>
 	  	</div>
