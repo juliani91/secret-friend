@@ -107,6 +107,16 @@ section.mainSection .menu .generate-btn{
 
 }
 
+select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
+}
+
 section.mainSection h5{
 	color: #ffffff;
 	font-size: 1em;
@@ -242,6 +252,16 @@ footer span{
 		margin-top: 1.5em;
 	}
 
+	select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
+}
+
 	section.mainSection h5{
 		margin-top: 1.5em;
 	}
@@ -322,6 +342,15 @@ footer span{
 	section.mainSection .menu{
 		margin-top: 2.5em;
 	}
+	select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
+}
 
 	section.mainSection h5{
 		margin-top: 2.5em;
@@ -406,6 +435,15 @@ footer span{
 	
 
 	}
+	select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
+}
 	section.mainSection h5{
 		margin-top: 4.5em;
 		font-size: 2.8em;
@@ -491,6 +529,15 @@ footer span{
 	
 
 	}
+	select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
+}
 	section.mainSection h5{
 		margin-top: 1.5em;
 		font-size: 1.5em;
@@ -622,6 +669,15 @@ section.mainSection .menu .generate-btn{
 	border: none;
 	border-bottom: 2px solid black;
 
+}
+select#allOptions{
+	width: 25%;
+	background-color: transparent;
+	color: #ffffff;
+	text-indent: 43%
+}
+select#allOptions option{
+	background: #1a94ea;
 }
 
 section.mainSection h5{
