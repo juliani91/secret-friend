@@ -8,6 +8,10 @@
   <title>Raffle</title>
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta property="og:title" content="Secret Friend Generator" />
+  <meta property="og:description" content="Website" />
+  <meta property="og:url" content="http://dummy-host2.localhost/" />
+  <meta property="og:image" content="http://dummy-host2.localhost/images/graph.jpg" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -50,7 +54,7 @@
 			          <a href="#" id="toBegin">Start :)</a>
 			      </div>
 			        <div class="six columns omega header-btn right-btn">
-			          <a href="#">Github</a>
+			          <a href="https://github.com/juliani91/secret-friend" target="_blank">Github</a>
 			      	</div>
 			    </div>
 	  	</div>
