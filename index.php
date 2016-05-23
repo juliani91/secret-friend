@@ -107,14 +107,14 @@
   				<h2>E-mails and Names</h2>
   				<p>Enter the appropriate information in the fields.</p>
   			<!-- Append inputs to the form from jquery -->
-			    <form name="form1" >
+			    <form action="" method="post" name="form1" >
 			        <div id="firstForm" >
 			        	<div class="container">
 			        		<div class="twelve columns appendHere"></div>
 			            </div>
 			            <div class="container">
 			            	<div class="eight columns offset-by-two centering">
-			            		<input type="button" value="Send" id="send-btn" class="send-btn-class">
+			            		<input type="button" onclick="clickFunction();" value="Send" onclick id="send-btn" class="send-btn-class">
 			            	</div>
 			            </div>
 			        </div>
@@ -140,5 +140,23 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
   <script type="text/javascript" src="js/functions.js"></script>
+  <script type="text/javascript">
+    function clickFunction(){
+       	 var theArray = document.getElementsByClassName('divClass');
+       	 var sendMail = [];
+       	 var sendName = [];
+       	
+       	 for(var i=0; i<theArray.length; i++){
+       	 	
+       	 	sendMail.push(theArray[i].childNodes[0].value);
+       	 	sendName.push(theArray[i].childNodes[3].value);
+       	 }
+       	 
+      sendMail = JSON.stringify(sendMail);
+      sendName = JSON.stringify(sendName);
+      window.open('sendmail.php?params='+sendMail + '&params2=' + sendName,'_blank ');
+     }
+
+  </script>
 </body>
 </html>

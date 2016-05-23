@@ -24,6 +24,13 @@ $(document).ready(function(){
 
 var ids = "email";
 var ids2 = "msg";
+
+
+var name1 = "email";
+var name2 = "name"
+var passmailArray = [];
+var passnameArray = [];
+
 var divClass = "divClass";
 var area = "textarea1"
 var areaId;
@@ -34,14 +41,19 @@ var nameArray = [];
         var first_value = $("#allOptions").val();
         $(".send-btn-class").css("visibility", "visible");
         for(var i=0; i<first_value; i++){
-            $(".appendHere").append('<div class="' + divClass +'"><input type="text" placeholder="E-mail ' + (1+i) + '" id="' + (ids +(1+i))  + '"><br/> <input type="text" placeholder="Name '+ (1+i) +'" id="'+ (ids2 +(1+i))  + '"><br/></div>');
+            $(".appendHere").append('<div class="' + divClass +'"><input type="text" name="' + (name1+(1+i)) +'" placeholder="E-mail ' + (1+i) + '" id="' + (ids +(1+i))  + '"><br/> <input type="text" name="' + (name2+(1+i)) +'" placeholder="Name '+ (1+i) +'" id="'+ (ids2 +(1+i))  + '"><br/></div>');
             
 
            emailArray.push("#" +ids + (i+1)); // create ids
            nameArray.push("#" +ids2 + (i+1)); // create ids
 
+            passmailArray.push(name1 + (i+1));
+            passnameArray.push(name2 + (i+1));
+
 
         }
+     
+
 
         // Make generate button a START OVER BUTTON
         $(".generate-btn").val("Start Over");
